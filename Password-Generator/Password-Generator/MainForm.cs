@@ -293,7 +293,7 @@ namespace Password_Generator
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Password Generator v.1.0.0 | by John-9198\n\nRelease: 21.08.2020\nhttps://github.com/John-9198/Password-Generator\n\nFeedback and suggestions:\njohn-9198@protonmail.com", "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Password Generator v.1.0.1 | by John-9198\n\nRelease: 21.08.2020\nhttps://github.com/John-9198/Password-Generator\n\nFeedback and suggestions:\njohn-9198@protonmail.com", "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
