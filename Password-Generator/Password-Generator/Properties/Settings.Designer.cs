@@ -8,22 +8,175 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Password_Generator.Properties
-{
-
-
+namespace Password_Generator.Properties {
+    
+    
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "11.0.0.0")]
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase
-    {
-
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.5.0.0")]
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
-
-        public static Settings Default
-        {
-            get
-            {
+        
+        public static Settings Default {
+            get {
                 return defaultInstance;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool symbols_settings_is_templates {
+            get {
+                return ((bool)(this["symbols_settings_is_templates"]));
+            }
+            set {
+                this["symbols_settings_is_templates"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool symbols_settings_template_1 {
+            get {
+                return ((bool)(this["symbols_settings_template_1"]));
+            }
+            set {
+                this["symbols_settings_template_1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool symbols_settings_template_2 {
+            get {
+                return ((bool)(this["symbols_settings_template_2"]));
+            }
+            set {
+                this["symbols_settings_template_2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool symbols_settings_template_3 {
+            get {
+                return ((bool)(this["symbols_settings_template_3"]));
+            }
+            set {
+                this["symbols_settings_template_3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool symbols_settings_template_4 {
+            get {
+                return ((bool)(this["symbols_settings_template_4"]));
+            }
+            set {
+                this["symbols_settings_template_4"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool symbols_settings_template_5 {
+            get {
+                return ((bool)(this["symbols_settings_template_5"]));
+            }
+            set {
+                this["symbols_settings_template_5"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!$%^*()-_=+<>.,{}[]" +
+            ":;~@#\'\"?/|\\")]
+        public string symbols_settings_own_symbols_text {
+            get {
+                return ((string)(this["symbols_settings_own_symbols_text"]));
+            }
+            set {
+                this["symbols_settings_own_symbols_text"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        public decimal generation_settings_number_of_passwords {
+            get {
+                return ((decimal)(this["generation_settings_number_of_passwords"]));
+            }
+            set {
+                this["generation_settings_number_of_passwords"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("64")]
+        public decimal generation_settings_length_of_single_password {
+            get {
+                return ((decimal)(this["generation_settings_length_of_single_password"]));
+            }
+            set {
+                this["generation_settings_length_of_single_password"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        public int generation_settings_delimiter {
+            get {
+                return ((int)(this["generation_settings_delimiter"]));
+            }
+            set {
+                this["generation_settings_delimiter"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string generation_settings_delimiter_symbols {
+            get {
+                return ((string)(this["generation_settings_delimiter_symbols"]));
+            }
+            set {
+                this["generation_settings_delimiter_symbols"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool generation_settings_clear_result_every_time {
+            get {
+                return ((bool)(this["generation_settings_clear_result_every_time"]));
+            }
+            set {
+                this["generation_settings_clear_result_every_time"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string result {
+            get {
+                return ((string)(this["result"]));
+            }
+            set {
+                this["result"] = value;
             }
         }
     }
