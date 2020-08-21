@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.mainToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.resultToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -146,6 +147,7 @@
             // 
             // groupBox_symbols_settings
             // 
+            this.groupBox_symbols_settings.BackColor = System.Drawing.Color.White;
             this.groupBox_symbols_settings.Controls.Add(this.button_set_own_symbols_to_default);
             this.groupBox_symbols_settings.Controls.Add(this.richTextBox_symbols_settings);
             this.groupBox_symbols_settings.Controls.Add(this.checkBox_template_5);
@@ -164,6 +166,7 @@
             // 
             // groupBox_generation_settings
             // 
+            this.groupBox_generation_settings.BackColor = System.Drawing.Color.White;
             this.groupBox_generation_settings.Controls.Add(this.numericUpDown_single_password_length);
             this.groupBox_generation_settings.Controls.Add(this.numericUpDown_passwords_number);
             this.groupBox_generation_settings.Controls.Add(this.checkBox_clear_result_every_generation);
@@ -383,50 +386,55 @@
             // 
             // button_set_own_symbols_to_default
             // 
+            this.button_set_own_symbols_to_default.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.button_set_own_symbols_to_default.Enabled = false;
             this.button_set_own_symbols_to_default.Location = new System.Drawing.Point(394, 112);
             this.button_set_own_symbols_to_default.Name = "button_set_own_symbols_to_default";
             this.button_set_own_symbols_to_default.Size = new System.Drawing.Size(75, 123);
             this.button_set_own_symbols_to_default.TabIndex = 8;
             this.button_set_own_symbols_to_default.Text = "Set own symbols to default";
-            this.button_set_own_symbols_to_default.UseVisualStyleBackColor = true;
+            this.button_set_own_symbols_to_default.UseVisualStyleBackColor = false;
             // 
             // button_generate
             // 
+            this.button_generate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.button_generate.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button_generate.Location = new System.Drawing.Point(12, 274);
             this.button_generate.Name = "button_generate";
             this.button_generate.Size = new System.Drawing.Size(475, 62);
             this.button_generate.TabIndex = 12;
             this.button_generate.Text = "Generate";
-            this.button_generate.UseVisualStyleBackColor = true;
+            this.button_generate.UseVisualStyleBackColor = false;
             // 
             // button_clear_result
             // 
+            this.button_clear_result.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.button_clear_result.Location = new System.Drawing.Point(12, 490);
             this.button_clear_result.Name = "button_clear_result";
             this.button_clear_result.Size = new System.Drawing.Size(222, 23);
             this.button_clear_result.TabIndex = 13;
             this.button_clear_result.Text = "Clear result";
-            this.button_clear_result.UseVisualStyleBackColor = true;
+            this.button_clear_result.UseVisualStyleBackColor = false;
             // 
             // button_copy_result_to_clipboard
             // 
+            this.button_copy_result_to_clipboard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.button_copy_result_to_clipboard.Location = new System.Drawing.Point(240, 490);
             this.button_copy_result_to_clipboard.Name = "button_copy_result_to_clipboard";
             this.button_copy_result_to_clipboard.Size = new System.Drawing.Size(222, 23);
             this.button_copy_result_to_clipboard.TabIndex = 14;
             this.button_copy_result_to_clipboard.Text = "Copy result to clipboard";
-            this.button_copy_result_to_clipboard.UseVisualStyleBackColor = true;
+            this.button_copy_result_to_clipboard.UseVisualStyleBackColor = false;
             // 
             // button_save_result_to_file
             // 
+            this.button_save_result_to_file.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.button_save_result_to_file.Location = new System.Drawing.Point(482, 490);
             this.button_save_result_to_file.Name = "button_save_result_to_file";
             this.button_save_result_to_file.Size = new System.Drawing.Size(222, 23);
             this.button_save_result_to_file.TabIndex = 15;
             this.button_save_result_to_file.Text = "Save result to file...";
-            this.button_save_result_to_file.UseVisualStyleBackColor = true;
+            this.button_save_result_to_file.UseVisualStyleBackColor = false;
             // 
             // numericUpDown_passwords_number
             // 
@@ -512,6 +520,7 @@
             this.Controls.Add(this.groupBox_symbols_settings);
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
